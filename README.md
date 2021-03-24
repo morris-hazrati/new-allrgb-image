@@ -11,5 +11,6 @@ shuffle the colors array by using Fisher-Yates algorithm so that the image will 
 based on the test instructions, the initial number of colors is 32768, but by this button you can decrease this number. When the number of colors reaches 2 colors, the button will be disabled.
 ## Shrink/Enlarge:
 the initial rendered image size is 1024px X 512px. By Shrink button you can make the image smaller by 50% until the width reaches 64px and then the button will be disabled. Enlarge button does the opposite and double the size, and initially is disabled, and when the image size reaches 1024px it becomes disabled again.
-## Reset: Initially disabled. By changing the colors numbers or image sizes it becomes active. By pressing reset, all colors and image sized turn back to defaults. 
+## Reset: Initially disabled. 
+By changing the colors numbers or image sizes it becomes active. By pressing reset, all colors and image sized turn back to defaults. 
 Also, the total number of colors and image size are rendered dynamically in the green badges.
