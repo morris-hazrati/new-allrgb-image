@@ -1,0 +1,232 @@
+* { /* Reset default styles */
+    padding: 0;
+    margin: 0;
+}
+
+.center {
+    text-align: center;
+}
+
+.caption {
+    word-wrap: break-word;
+}
+
+.gap {
+    padding: 0 0 0 5px;
+    max-width: 100%;
+    background-color: #FECA32;
+    word-wrap: break-word;
+}
+
+.imgFlickr {
+    height: 200px;
+    width: auto;
+}
+
+.imageContainer {
+    max-width: 250px;
+    height: auto;
+    float: left;
+    text-align: center;
+    border: 1px solid black;
+    margin: 1em;
+    color: skyblue;
+}
+
+ul {
+    font-size: 1.1em;
+    list-style: none;
+}
+
+li:nth-child(even) {
+    background-color: #F6F6F6;
+}
+
+li:nth-child(odd) {
+    background-color: #E3E3E3;
+}
+
+.exifcontent {
+    float:left;
+    text-align: center;
+    color: #333;
+    width: 50%;
+    word-wrap: break-word;
+}
+
+.title, .value {
+    float:left;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.1em;
+    color: white;
+    background-color: #333;
+    width: 50%;
+}
+
+.right {
+    border-right: 1px solid black;
+}
+
+.image {
+    max-width: 250px;
+    height: auto;
+}
+
+#largerImage {
+    float: left;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#col {
+    background-color: pink;
+}
+
+.fluid-img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 0 10px 0;
+}
+
+.largeImageContainer {
+    text-align: center;
+    padding: 0.3em;
+    margin: 1em auto 1em auto;
+    color: skyblue;
+}
+
+#imageGallery {
+    margin: 1em auto 1em auto;
+    float: left;
+}
+
+h1 {
+    padding: 5px;
+    text-align: center;
+}
+
+body {
+    font-family: "Ludica Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+    color: #333333;
+}
+
+/* Make fluid images */
+.fluid {
+    max-width: 100%;
+    height: auto;
+    margin: 0.3em;
+}
+
+/* Override the default text selection colour */
+::-moz-selection { /* for firefox */
+    background: #FECA32;
+}
+
+::selection {
+    background: #FECA32;
+}
+
+#wrapper {
+    margin: 5em auto 5em auto;
+    min-width: 18.125em; /* 290px */
+    max-width: 75%;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: #333 1px 1px 1px 1px;
+
+    animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+    -o-animation: fadein 3s; /* Opera */
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#instructions {
+    padding: 1em;
+}
+
+#theForm {
+    padding: 1em;
+}
+
+#formContent {
+    text-align: center;
+}
+
+.loading {
+    text-align: center;
+    display: none;
+}
+
+#search {
+    margin: 0.3em;
+    padding: 0.3125em;
+    color: dodgerblue;
+    font-size: 1em;
+}
+
+#submit {
+    border: none;
+    font-size: 1em;
+    padding: 0.4em;
+    background-color: greenyellow;
+    transiton: 0.7s ease all;
+    -moz-transition: 0.7s ease all;
+    -ms-transition: 0.7s ease all;
+    -webkit-transition: 0.7s ease all;
+    -o-transition: 0.7s ease all;
+}
+
+#submit:hover {
+    color: #fff;
+    background-color: #333;
+    transiton: 0.7s ease all;
+    -moz-transition: 0.7s ease all;
+    -ms-transition: 0.7s ease all;
+    -webkit-transition: 0.7s ease all;
+    -o-transition: 0.7s ease all;
+}
+
+/* Micro clearfix */
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
